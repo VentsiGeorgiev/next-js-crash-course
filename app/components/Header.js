@@ -14,6 +14,9 @@ function Header() {
           <li>
             <Link href='/about/team'>Team</Link>
           </li>
+          <li>
+            <Link href='/code/repos'>Code</Link>
+          </li>
         </ul>
       </nav>
     </header>

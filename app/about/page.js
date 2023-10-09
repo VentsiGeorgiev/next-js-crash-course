@@ -1,3 +1,7 @@
+export const metadata = {
+  title: 'About Next.js'
+}
+
 function AboutPage() {
   return (
     <>

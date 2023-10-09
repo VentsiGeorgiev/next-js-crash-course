@@ -1,7 +1,11 @@
 import Link from "next/link"
 
 async function fetchRepo(name) {
-  const response = await fetch(`https://api.github.com/repos/VentsiGeorgiev/${name}`)
+  const response = await fetch(`https://api.github.com/repos/VentsiGeorgiev/${name}`, {
+    next: {
+      revalidate: 60
+    }
+  })
   const data = response.json()
   return data
 }

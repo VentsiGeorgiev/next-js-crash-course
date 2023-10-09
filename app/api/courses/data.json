@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Next.js level 1",
+    "description": "Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications",
+    "link": "https://nextjs.org/",
+    "level": "Beginner"
+  },
+  {
+    "id": 2,
+    "title": "Next.js level 2",
+    "description": "extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.",
+    "link": "https://nextjs.org/docs",
+    "level": "Intermediate"
+  },
+  {
+    "id": 3,
+    "title": "Next.js level 3",
+    "description": "Data fetching is a core part of any application. This page goes through how you can fetch, cache, and revalidate data in React and Next.js.",
+    "link": "https://nextjs.org/docs/app/building-your-application/data-fetching",
+    "level": "All Levels"
+  },
+  {
+    "id": 4,
+    "title": "Next.js level 4",
+    "description": "React Server Components allow you to write UI that can be rendered and optionally cached on the server. In Next.js, the rendering work is further split by route segments to enable streaming and partial rendering, and there are three different server rendering strategies:",
+    "link": "https://nextjs.org/docs/app/building-your-application/rendering",
+    "level": "Intermediate"
+  },
+  {
+    "id": 5,
+    "title": "Next.js level 5",
+    "description": "Next.js improves your application's performance and reduces costs by caching rendering work and data requests. This page provides an in-depth look at Next.js caching mechanisms, the APIs you can use to configure them, and how they interact with each other.",
+    "link": "https://nextjs.org/docs/app/building-your-application/caching",
+    "level": "Beginner"
+  }
+]

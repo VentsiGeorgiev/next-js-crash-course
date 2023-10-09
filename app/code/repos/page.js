@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 async function fetchRepos() {
   const response = await fetch('https://api.github.com/users/VentsiGeorgiev/repos')
   const repos = await response.json()
@@ -12,7 +14,15 @@ async function ReposPage() {
   return (
     <div>
       <h1>ReposPage</h1>
-      <p>{repos[0].name}</p>
+      <ul>
+        {repos.map((r) => (
+          <li key={r.id}>
+            <Link href={`/code/repos/${r.name}`}>
+              {r.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
